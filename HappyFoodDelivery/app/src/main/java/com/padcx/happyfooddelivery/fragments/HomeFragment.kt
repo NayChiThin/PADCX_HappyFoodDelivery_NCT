@@ -12,6 +12,7 @@ import com.padcx.happyfooddelivery.R
 import com.padcx.happyfooddelivery.activities.RestaurantDetailActivity
 import com.padcx.happyfooddelivery.adapters.FoodTypeListAdapter
 import com.padcx.happyfooddelivery.adapters.RestaurantListAdapter
+import com.padcx.happyfooddelivery.data.vos.FoodTypeVO
 import com.padcx.happyfooddelivery.data.vos.RestaurantVO
 import com.padcx.happyfooddelivery.mvp.presenters.HomePresenter
 import com.padcx.happyfooddelivery.mvp.presenters.impls.HomePresenterImpl
@@ -65,7 +66,7 @@ class HomeFragment : Fragment(),HomeView {
         rvRestaurantList.layoutManager = restaurantLayoutManager
     }
 
-    override fun displayFoodTypeList(foodTypeList: List<String>) {
+    override fun displayFoodTypeList(foodTypeList: List<FoodTypeVO>) {
         mFoodTypeListAdapter.setNewData(foodTypeList.toMutableList())
     }
 

@@ -1,6 +1,7 @@
-package com.padcx.happyfooddelivery.data.models
+package com.padcx.happyfooddelivery.data.models.impls
 
-import com.padcx.happyfooddelivery.data.vos.FoodVO
+import com.padcx.happyfooddelivery.data.models.HomeModel
+import com.padcx.happyfooddelivery.data.vos.FoodTypeVO
 import com.padcx.happyfooddelivery.data.vos.RestaurantVO
 import com.padcx.happyfooddelivery.network.CloudFirestoreFirebaseApiImpl
 import com.padcx.happyfooddelivery.network.FirebaseApi
@@ -27,6 +28,10 @@ object HomeModelImpl : HomeModel {
         onFailure: (String) -> Unit
     ) {
         mFirebaseApi.getNewRestaurants(onSuccess,onFailure)
+    }
+
+    override fun getFoodTypes(onSuccess: (List<FoodTypeVO>) -> Unit, onFailure: (String) -> Unit) {
+        mFirebaseApi.getFoodType(onSuccess, onFailure)
     }
 /*
     override fun addFoodToCart(food: FoodVO) {

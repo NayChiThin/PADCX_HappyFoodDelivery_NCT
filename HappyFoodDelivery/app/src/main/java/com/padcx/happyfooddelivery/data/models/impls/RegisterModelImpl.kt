@@ -1,18 +1,21 @@
-package com.padcx.happyfooddelivery.data.models
+package com.padcx.happyfooddelivery.data.models.impls
 
+import com.padcx.happyfooddelivery.data.models.RegisterModel
 import com.padcx.happyfooddelivery.network.auth.AuthManager
 import com.padcx.happyfooddelivery.network.auth.FirebaseAuthManager
 
-object LoginModelImpl : LoginModel {
+object RegisterModelImpl :
+    RegisterModel {
     override var mAuthManager: AuthManager = FirebaseAuthManager
 
-
-    override fun login(
+    override fun register(
         email: String,
         password: String,
+        userName:String,
+        phone:String,
         onSuccess: () -> Unit,
         onFailure: (String) -> Unit
     ) {
-        mAuthManager.login(email,password,onSuccess,onFailure)
+        mAuthManager.register(email,password,userName,phone,onSuccess, onFailure)
     }
 }

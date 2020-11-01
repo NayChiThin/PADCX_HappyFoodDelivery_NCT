@@ -1,10 +1,11 @@
-package com.padcx.happyfooddelivery.data.models
+package com.padcx.happyfooddelivery.data.models.impls
 
+import com.padcx.happyfooddelivery.data.models.CartModel
 import com.padcx.happyfooddelivery.data.vos.FoodVO
 import com.padcx.happyfooddelivery.network.CloudFirestoreFirebaseApiImpl
 import com.padcx.happyfooddelivery.network.FirebaseApi
 
-object CartModelImpl : CartModel{
+object CartModelImpl : CartModel {
     override var mFirebaseApi: FirebaseApi = CloudFirestoreFirebaseApiImpl
 
     override fun getCartItems(onSuccess: (List<FoodVO>) -> Unit, onFailure: (String) -> Unit) {

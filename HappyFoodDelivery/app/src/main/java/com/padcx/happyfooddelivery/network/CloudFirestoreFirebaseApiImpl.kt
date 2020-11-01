@@ -6,6 +6,7 @@ import androidx.core.net.toUri
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.storage.FirebaseStorage
+import com.padcx.happyfooddelivery.data.vos.FoodTypeVO
 import com.padcx.happyfooddelivery.data.vos.FoodVO
 import com.padcx.happyfooddelivery.data.vos.RestaurantVO
 import com.padcx.happyfooddelivery.network.auth.AuthManager
@@ -215,6 +216,29 @@ object CloudFirestoreFirebaseApiImpl : FirebaseApi {
                         foodList.add(food)
                     }
                     onSuccess(foodList)
+                }
+            }
+    }
+
+    override fun getFoodType(
+        onSuccess: (foodTypes: List<FoodTypeVO>) -> Unit,
+        onFailure: (String) -> Unit
+    ) {
+        db.collection("foodType")
+            .addSnapshotListener{value,error->
+                error?.let {
+                    onFailure(it.message?:"Please check internet connection")
+                }?: run {
+                    val foodTypeList : MutableList<FoodTypeVO> = arrayListOf()
+                    val result = value?.documents ?: arrayListOf()
+                    for(document in result) {
+                        val data = document.data
+                        val foodType = FoodTypeVO()
+                        foodType.name = data?.get("name") as String
+                        foodType.image = data["image"] as String
+                        foodTypeList.add(foodType)
+                    }
+                    onSuccess(foodTypeList)
                 }
             }
     }

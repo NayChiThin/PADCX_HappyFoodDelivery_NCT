@@ -2,17 +2,19 @@ package com.padcx.happyfooddelivery.mvp.presenters.impls
 
 import androidx.lifecycle.LifecycleOwner
 import com.padcx.happyfooddelivery.data.models.LoginModel
-import com.padcx.happyfooddelivery.data.models.LoginModelImpl
+import com.padcx.happyfooddelivery.data.models.impls.LoginModelImpl
 import com.padcx.happyfooddelivery.data.models.MainModel
-import com.padcx.happyfooddelivery.data.models.MainModelImpl
+import com.padcx.happyfooddelivery.data.models.impls.MainModelImpl
 import com.padcx.happyfooddelivery.mvp.presenters.AbstractBasePresenter
 import com.padcx.happyfooddelivery.mvp.presenters.LoginPresenter
 import com.padcx.happyfooddelivery.mvp.views.LoginView
 
 class LoginPresenterImpl : LoginPresenter,AbstractBasePresenter<LoginView>() {
 
-    private val mLoginModel : LoginModel = LoginModelImpl
-    private val mMainModel : MainModel = MainModelImpl
+    private val mLoginModel : LoginModel =
+        LoginModelImpl
+    private val mMainModel : MainModel =
+        MainModelImpl
 
     override fun onTapLogin(email: String, password: String) {
         mLoginModel.login(email,password,

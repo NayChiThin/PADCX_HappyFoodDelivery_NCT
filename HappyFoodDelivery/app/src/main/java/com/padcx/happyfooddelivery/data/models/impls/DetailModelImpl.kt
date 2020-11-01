@@ -1,5 +1,6 @@
-package com.padcx.happyfooddelivery.data.models
+package com.padcx.happyfooddelivery.data.models.impls
 
+import com.padcx.happyfooddelivery.data.models.DetailModel
 import com.padcx.happyfooddelivery.data.vos.FoodVO
 import com.padcx.happyfooddelivery.network.CloudFirestoreFirebaseApiImpl
 import com.padcx.happyfooddelivery.network.FirebaseApi

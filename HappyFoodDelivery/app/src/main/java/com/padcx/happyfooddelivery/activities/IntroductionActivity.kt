@@ -24,7 +24,7 @@ import com.padcx.happyfooddelivery.utils.PrefManager
 import kotlinx.android.synthetic.main.activity_introduction.*
 
 
-class IntroductionActivity : AppCompatActivity(),IntroductionView {
+class IntroductionActivity : BaseActivity(),IntroductionView {
 
     companion object {
         fun newIntent(context: Context):Intent {

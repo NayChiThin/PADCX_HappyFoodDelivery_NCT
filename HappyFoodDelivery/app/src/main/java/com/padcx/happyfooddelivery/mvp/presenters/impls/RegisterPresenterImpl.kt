@@ -2,14 +2,15 @@ package com.padcx.happyfooddelivery.mvp.presenters.impls
 
 import androidx.lifecycle.LifecycleOwner
 import com.padcx.happyfooddelivery.data.models.RegisterModel
-import com.padcx.happyfooddelivery.data.models.RegisterModelImpl
+import com.padcx.happyfooddelivery.data.models.impls.RegisterModelImpl
 import com.padcx.happyfooddelivery.mvp.presenters.AbstractBasePresenter
 import com.padcx.happyfooddelivery.mvp.presenters.RegisterPresenter
 import com.padcx.happyfooddelivery.mvp.views.RegisterView
 
 class RegisterPresenterImpl:RegisterPresenter,AbstractBasePresenter<RegisterView>() {
 
-    private val mRegisterModel : RegisterModel = RegisterModelImpl
+    private val mRegisterModel : RegisterModel =
+        RegisterModelImpl
 
     override fun onTapRegister(email: String, password: String, userName: String, phone: String) {
         mRegisterModel.register(email,password,userName,phone,

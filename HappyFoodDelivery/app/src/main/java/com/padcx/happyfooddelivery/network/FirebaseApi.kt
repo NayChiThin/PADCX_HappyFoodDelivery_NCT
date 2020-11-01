@@ -1,6 +1,7 @@
 package com.padcx.happyfooddelivery.network
 
 import android.graphics.Bitmap
+import com.padcx.happyfooddelivery.data.vos.FoodTypeVO
 import com.padcx.happyfooddelivery.data.vos.FoodVO
 import com.padcx.happyfooddelivery.data.vos.RestaurantVO
 
@@ -13,4 +14,5 @@ interface FirebaseApi {
     fun deleteCartItems()
     fun uploadProfileImage(image:Bitmap)
     fun getFoodList(restaurantName:String,onSuccess:(foodList:List<FoodVO>)->Unit,onFailure: (String) -> Unit)
+    fun getFoodType(onSuccess:(foodTypes:List<FoodTypeVO>)->Unit,onFailure: (String) -> Unit)
 }

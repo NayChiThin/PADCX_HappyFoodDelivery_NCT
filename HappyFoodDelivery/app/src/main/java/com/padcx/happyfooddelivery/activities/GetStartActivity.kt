@@ -14,7 +14,7 @@ import com.padcx.happyfooddelivery.mvp.views.GetStartedView
 import com.padcx.happyfooddelivery.utils.PrefManager
 import kotlinx.android.synthetic.main.activity_get_start.*
 
-class GetStartActivity : AppCompatActivity(),GetStartedView {
+class GetStartActivity : BaseActivity(),GetStartedView {
 
     companion object {
         fun newIntent(context: Context):Intent {
