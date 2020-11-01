@@ -1,0 +1,22 @@
+{
+  "name": "padcx-happyfooddelivery",
+  "version": "1.0.0",
+  "description": "Happy Food Delivery Data Importer",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NayChiThin/PADCX_HappyFoodDelivery_NCT.git"
+  },
+  "author": "NCT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NayChiThin/PADCX_HappyFoodDelivery_NCT/issues"
+  },
+  "homepage": "https://github.com/NayChiThin/PADCX_HappyFoodDelivery_NCT#readme",
+  "dependencies": {
+    "firestore-export-import": "^0.8.0"
+  }
+}

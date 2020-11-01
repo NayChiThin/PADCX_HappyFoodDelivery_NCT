@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "574663197469",
+    "firebase_url": "https://happyfooddelivery-c7dd6.firebaseio.com",
+    "project_id": "happyfooddelivery-c7dd6",
+    "storage_bucket": "happyfooddelivery-c7dd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574663197469:android:a7c893a14799d5bc2d17f4",
+        "android_client_info": {
+          "package_name": "com.padcx.happyfooddelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574663197469-ils4tdr7mdmsiog89o05phbgo9u1cg4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkzZjH-eV3c5-awH_06n6tRTqjIhc7wXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574663197469-ils4tdr7mdmsiog89o05phbgo9u1cg4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

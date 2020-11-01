@@ -1,0 +1,103 @@
+{
+"restaurants":[
+	{
+	"name":"Really Cool Burgers",
+	"image":"https://i2.wp.com/www.eatthis.com/wp-content/uploads/2018/05/mcdonalds-burger-fries-soda.jpg?resize=640%2C360&ssl=1",
+	"description":"Burgers - Western Food - $$",
+	"rating":4.9,
+	"ratingCount":"(124 ratings)",
+	"deliveryTime":"20-30 mins",
+	"location":"123 Rock Street, New York City",
+	"popular":true,
+	"new":true,
+	"food":{
+	"American Beef Burgers":{
+	"name":"American Beef Burgers",
+	"image":"https://www.designindaba.com/sites/default/files/styles/scaledlarge/public/node/news/23566/sonic-burger.jpg?itok=zGk5pjcI",
+	"price":16,
+	"description":"Angus, beef, cheese, onion, tomato jam,pickles",
+	"popular":true
+	},
+	"Classic Cheese Burgers":{
+	"name":"Classic Cheese Burgers",
+	"image":"https://images.ctfassets.net/oewsurrg31ok/2BxSmgM43Mgv6ax7Jgp85i/947a6b18053f6de531de508a06983d98/2019_Burger_Banzai.png",
+	"price":15,
+	"description":"Angus, beef, cheese, onion, tomato jam,pickles",
+	"popular":true
+	},
+	"Fishman Burgers":{
+	"name":"Fishman Burgers",
+	"image":"https://awrestaurants.com/sites/default/files/papaburger.png",
+	"price":15,
+	"description":"Angus, beef, cheese, onion, tomato jam,pickles",
+	"popular":true
+	},
+	"Triple Double Burger":{
+	"name":"Triple Double Burger",
+	"image":"https://ichef.bbci.co.uk/news/1024/cpsprodpb/11A09/production/_110410227_82e33a29-3a6c-45dd-889c-c295a13b7298.png",
+	"price":18,
+	"description":"Angus, beef, cheese, onion, tomato jam,pickles",
+	"popular":false
+	}
+	}
+	},
+	{
+	"name":"Super Good Cafe",
+	"image":"https://yangonlife.com.mm/sites/yangonlife.com.mm/files/styles/event_details/public/directory_photo/nervin-cafe-bistro.jpg?itok=64R_uDcI",
+	"description":"Cafe - Western Food - $$",
+	"rating":4.9,
+	"ratingCount":"(124 ratings)",
+	"deliveryTime":"20-30 mins",
+	"location":"123 Rock Street, New York City",
+	"popular":true,
+	"new":true,
+	"food":{
+	"American Beef Burgers":{
+	"name":"American Beef Burgers",
+	"image":"https://www.designindaba.com/sites/default/files/styles/scaledlarge/public/node/news/23566/sonic-burger.jpg?itok=zGk5pjcI",
+	"price":16,
+	"description":"Angus, beef, cheese, onion, tomato jam,pickles",
+	"popular":true
+	},
+	"Classic Cheese Burgers":{
+	"name":"Classic Cheese Burgers",
+	"image":"https://images.ctfassets.net/oewsurrg31ok/2BxSmgM43Mgv6ax7Jgp85i/947a6b18053f6de531de508a06983d98/2019_Burger_Banzai.png",
+	"price":15,
+	"description":"Angus, beef, cheese, onion, tomato jam,pickles",
+	"popular":true
+	},
+	"Fishman Burgers":{
+	"name":"Fishman Burgers",
+	"image":"https://awrestaurants.com/sites/default/files/papaburger.png",
+	"price":15,
+	"description":"Angus, beef, cheese, onion, tomato jam,pickles",
+	"popular":true
+	},
+	"Triple Double Burger":{
+	"name":"Triple Double Burger",
+	"image":"https://ichef.bbci.co.uk/news/1024/cpsprodpb/11A09/production/_110410227_82e33a29-3a6c-45dd-889c-c295a13b7298.png",
+	"price":18,
+	"description":"Angus, beef, cheese, onion, tomato jam,pickles",
+	"popular":false
+	}
+	}
+	}
+	],
+"cart":{
+	"Fishman Burgers":{
+	"name":"Fishman Burgers",
+	"image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.insider.com%2F5d8ca1222e22af53447766c2%3Fwidth%3D1100%26format%3Djpeg%26auto%3Dwebp&imgrefurl=https%3A%2F%2Fwww.businessinsider.com%2Fmcdonalds-beyond-meat-p-l-t-plant-based-burger-canada-2019-9&tbnid=GYuws86XDxdpuM&vet=12ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg..i&docid=tRojqkbCciyjXM&w=1100&h=825&q=burger&ved=2ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg",
+	"price":15,
+	"description":"Angus, beef, cheese, onion, tomato jam,pickles",
+	"popular":true
+	},
+	"Triple Double Burger":{
+	"name":"Triple Double Burger",
+	"image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.insider.com%2F5d8ca1222e22af53447766c2%3Fwidth%3D1100%26format%3Djpeg%26auto%3Dwebp&imgrefurl=https%3A%2F%2Fwww.businessinsider.com%2Fmcdonalds-beyond-meat-p-l-t-plant-based-burger-canada-2019-9&tbnid=GYuws86XDxdpuM&vet=12ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg..i&docid=tRojqkbCciyjXM&w=1100&h=825&q=burger&ved=2ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg",
+	"price":18,
+	"description":"Angus, beef, cheese, onion, tomato jam,pickles",
+	"popular":false
+	}
+	}
+
+}

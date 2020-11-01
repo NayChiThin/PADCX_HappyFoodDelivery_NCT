@@ -1,0 +1,102 @@
+{
+   "restaurants":[
+      {
+         "name":"Really Cool Burgers",
+         "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi2.wp.com%2Fwww.eatthis.com%2Fwp-content%2Fuploads%2F2018%2F05%2Fmcdonalds-burger-fries-soda.jpg%3Fresize%3D640%252C360%26ssl%3D1&imgrefurl=https%3A%2F%2Fwww.eatthis.com%2Fwhat-happens-to-your-body-when-you-eat-fast-food%2F&tbnid=CIM44YIuuFILHM&vet=12ahUKEwjJj9qDo9rsAhURm0sFHUicAbUQMyg8egQIARBo..i&docid=ffYK4ssEKhSXBM&w=640&h=360&q=food&ved=2ahUKEwjJj9qDo9rsAhURm0sFHUicAbUQMyg8egQIARBo",
+         "description":"Burgers - Western Food - $$",
+         "rating":4.9,
+         "ratingCount":"(124 ratings)",
+         "deliveryTime":"20-30 mins",
+         "location":"123 Rock Street, New York City",
+         "popular":true,
+         "new":true,
+         "food":{
+            "American Beef Burgers":{
+               "name":"American Beef Burgers",
+               "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.insider.com%2F5d8ca1222e22af53447766c2%3Fwidth%3D1100%26format%3Djpeg%26auto%3Dwebp&imgrefurl=https%3A%2F%2Fwww.businessinsider.com%2Fmcdonalds-beyond-meat-p-l-t-plant-based-burger-canada-2019-9&tbnid=GYuws86XDxdpuM&vet=12ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg..i&docid=tRojqkbCciyjXM&w=1100&h=825&q=burger&ved=2ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg",
+               "price":16,
+               "description":"Angus, beef, cheese, onion, tomato jam,pickles",
+               "popular":true
+            },
+            "Classic Cheese Burgers":{
+               "name":"Classic Cheese Burgers",
+               "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.insider.com%2F5d8ca1222e22af53447766c2%3Fwidth%3D1100%26format%3Djpeg%26auto%3Dwebp&imgrefurl=https%3A%2F%2Fwww.businessinsider.com%2Fmcdonalds-beyond-meat-p-l-t-plant-based-burger-canada-2019-9&tbnid=GYuws86XDxdpuM&vet=12ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg..i&docid=tRojqkbCciyjXM&w=1100&h=825&q=burger&ved=2ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg",
+               "price":15,
+               "description":"Angus, beef, cheese, onion, tomato jam,pickles",
+               "popular":true
+            },
+            "Fishman Burgers":{
+               "name":"Fishman Burgers",
+               "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.insider.com%2F5d8ca1222e22af53447766c2%3Fwidth%3D1100%26format%3Djpeg%26auto%3Dwebp&imgrefurl=https%3A%2F%2Fwww.businessinsider.com%2Fmcdonalds-beyond-meat-p-l-t-plant-based-burger-canada-2019-9&tbnid=GYuws86XDxdpuM&vet=12ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg..i&docid=tRojqkbCciyjXM&w=1100&h=825&q=burger&ved=2ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg",
+               "price":15,
+               "description":"Angus, beef, cheese, onion, tomato jam,pickles",
+               "popular":true
+            },
+            "Triple Double Burger":{
+               "name":"Triple Double Burger",
+               "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.insider.com%2F5d8ca1222e22af53447766c2%3Fwidth%3D1100%26format%3Djpeg%26auto%3Dwebp&imgrefurl=https%3A%2F%2Fwww.businessinsider.com%2Fmcdonalds-beyond-meat-p-l-t-plant-based-burger-canada-2019-9&tbnid=GYuws86XDxdpuM&vet=12ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg..i&docid=tRojqkbCciyjXM&w=1100&h=825&q=burger&ved=2ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg",
+               "price":18,
+               "description":"Angus, beef, cheese, onion, tomato jam,pickles",
+               "popular":false
+            }
+         }
+      },
+      {
+         "name":"Super Good Cafe",
+         "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D10163609922885437&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Fcafecafeprague%2F&tbnid=3z0YAgbVRPuEEM&vet=12ahUKEwiDzJq43NvsAhUSdysKHafTBqgQMygSegUIARDvAQ..i&docid=1A17ro1_3VD-jM&w=960&h=421&q=cafe&ved=2ahUKEwiDzJq43NvsAhUSdysKHafTBqgQMygSegUIARDvAQ",
+         "description":"Cafe - Western Food - $$",
+         "rating":4.9,
+         "ratingCount":"(124 ratings)",
+         "deliveryTime":"20-30 mins",
+         "location":"123 Rock Street, New York City",
+         "popular":true,
+         "new":true,
+         "food":{
+            "American Beef Burgers":{
+               "name":"American Beef Burgers",
+               "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.insider.com%2F5d8ca1222e22af53447766c2%3Fwidth%3D1100%26format%3Djpeg%26auto%3Dwebp&imgrefurl=https%3A%2F%2Fwww.businessinsider.com%2Fmcdonalds-beyond-meat-p-l-t-plant-based-burger-canada-2019-9&tbnid=GYuws86XDxdpuM&vet=12ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg..i&docid=tRojqkbCciyjXM&w=1100&h=825&q=burger&ved=2ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg",
+               "price":16,
+               "description":"Angus, beef, cheese, onion, tomato jam,pickles",
+               "popular":true
+            },
+            "Classic Cheese Burgers":{
+               "name":"Classic Cheese Burgers",
+               "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.insider.com%2F5d8ca1222e22af53447766c2%3Fwidth%3D1100%26format%3Djpeg%26auto%3Dwebp&imgrefurl=https%3A%2F%2Fwww.businessinsider.com%2Fmcdonalds-beyond-meat-p-l-t-plant-based-burger-canada-2019-9&tbnid=GYuws86XDxdpuM&vet=12ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg..i&docid=tRojqkbCciyjXM&w=1100&h=825&q=burger&ved=2ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg",
+               "price":15,
+               "description":"Angus, beef, cheese, onion, tomato jam,pickles",
+               "popular":true
+            },
+            "Fishman Burgers":{
+               "name":"Fishman Burgers",
+               "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.insider.com%2F5d8ca1222e22af53447766c2%3Fwidth%3D1100%26format%3Djpeg%26auto%3Dwebp&imgrefurl=https%3A%2F%2Fwww.businessinsider.com%2Fmcdonalds-beyond-meat-p-l-t-plant-based-burger-canada-2019-9&tbnid=GYuws86XDxdpuM&vet=12ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg..i&docid=tRojqkbCciyjXM&w=1100&h=825&q=burger&ved=2ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg",
+               "price":15,
+               "description":"Angus, beef, cheese, onion, tomato jam,pickles",
+               "popular":true
+            },
+            "Triple Double Burger":{
+               "name":"Triple Double Burger",
+               "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.insider.com%2F5d8ca1222e22af53447766c2%3Fwidth%3D1100%26format%3Djpeg%26auto%3Dwebp&imgrefurl=https%3A%2F%2Fwww.businessinsider.com%2Fmcdonalds-beyond-meat-p-l-t-plant-based-burger-canada-2019-9&tbnid=GYuws86XDxdpuM&vet=12ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg..i&docid=tRojqkbCciyjXM&w=1100&h=825&q=burger&ved=2ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg",
+               "price":18,
+               "description":"Angus, beef, cheese, onion, tomato jam,pickles",
+               "popular":false
+            }
+         }
+      }
+   ],
+   "cart":{
+      "Fishman Burgers":{
+         "name":"Fishman Burgers",
+         "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.insider.com%2F5d8ca1222e22af53447766c2%3Fwidth%3D1100%26format%3Djpeg%26auto%3Dwebp&imgrefurl=https%3A%2F%2Fwww.businessinsider.com%2Fmcdonalds-beyond-meat-p-l-t-plant-based-burger-canada-2019-9&tbnid=GYuws86XDxdpuM&vet=12ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg..i&docid=tRojqkbCciyjXM&w=1100&h=825&q=burger&ved=2ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg",
+         "price":15,
+         "description":"Angus, beef, cheese, onion, tomato jam,pickles",
+         "popular":true
+      },
+      "Triple Double Burger":{
+         "name":"Triple Double Burger",
+         "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.insider.com%2F5d8ca1222e22af53447766c2%3Fwidth%3D1100%26format%3Djpeg%26auto%3Dwebp&imgrefurl=https%3A%2F%2Fwww.businessinsider.com%2Fmcdonalds-beyond-meat-p-l-t-plant-based-burger-canada-2019-9&tbnid=GYuws86XDxdpuM&vet=12ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg..i&docid=tRojqkbCciyjXM&w=1100&h=825&q=burger&ved=2ahUKEwiyqZjH3NvsAhVgm0sFHeOhA80QMygOegUIARCNAg",
+         "price":18,
+         "description":"Angus, beef, cheese, onion, tomato jam,pickles",
+         "popular":false
+      }
+   }
+}

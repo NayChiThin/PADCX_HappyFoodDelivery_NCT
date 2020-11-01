@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/bottomSheet"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    app:behavior_hideable="true">
+
+    <ImageView
+        android:id="@+id/ivOrderConfirm"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:scaleType="centerCrop"
+        android:src="@drawable/checkout" />
+
+    <TextView
+        android:id="@+id/tvThankYou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivOrderConfirm"
+        android:layout_alignStart="@id/ivOrderConfirm"
+        android:layout_alignEnd="@id/ivOrderConfirm"
+        android:layout_centerHorizontal="true"
+        android:lines="2"
+        android:text="@string/txt_thank_you"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_regular_3x"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvTrackDelivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_regular_2x"
+        android:layout_below="@id/tvThankYou"
+        android:layout_centerHorizontal="true"
+        android:lines="2"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:textAlignment="center"
+        android:layout_marginStart="@dimen/margin_xxlarge"
+        android:layout_marginEnd="@dimen/margin_xxlarge"
+        android:text="@string/txt_track_order"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTrackOrder"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_button_pink"
+        android:layout_marginTop="@dimen/margin_xlarge"
+        android:layout_below="@id/tvTrackDelivery"
+        android:layout_marginStart="@dimen/margin_xxlarge"
+        android:layout_marginEnd="@dimen/margin_xxlarge"
+        android:text="@string/txt_track"
+        android:textAllCaps="false"
+        android:textSize="@dimen/text_regular_3x"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorPrimary"
+        />
+    <TextView
+        android:id="@+id/tvOrderAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_order_again"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_regular_2x"
+        android:layout_marginBottom="@dimen/margin_medium_2"
+        android:layout_below="@id/btnTrackOrder"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
